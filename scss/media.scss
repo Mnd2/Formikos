@@ -168,10 +168,24 @@
 }
 
 // Kontaktai
-@media (max-width: 825px){
+@media (max-width: 825px) {
     #kontaktai {
         .box {
             width: 80%;
         }
     }
 }
+
+// navigation
+@media (max-width: 825px) {
+    .navigation {
+      
+      .header {
+        flex-direction: column;
+        nav {
+          width: 100%;
+          justify-content: space-around;
+        }
+      }
+    }
+  }
