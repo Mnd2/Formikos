@@ -1,0 +1,211 @@
+// paslaugos
+#paslaugos {
+    width: 100%;
+    padding-top: 50px;
+    .pavadinimas {
+      text-align: center;
+      color: $h-color;
+      font-size: 50px;
+    }
+    .section1 {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+
+      &::before {
+        display: inline-block;
+        content: '';
+        width: 2px;
+        height: 100px;
+        background-color: $before-color;
+        position: absolute;
+        bottom: -30%;
+        left: 50%;
+        transform: translateY(50%);
+        opacity: 0.5;
+      }
+  
+        #pervezimai {
+          height: 500px;
+          width: 45%;
+          position: relative;
+  
+          img {
+            width: 100%;
+            opacity: 0.4;
+            animation-name: img1;
+            animation-duration: 2s;
+          }
+          @keyframes img1 {
+            0% {width: 250px;}
+          }
+          h2 {
+            position: absolute;
+            color: $h-color;
+            top: 20px;
+            left: 20%;
+            font-size: 35px;
+          }
+          p {
+            position: absolute;
+            text-align: center;
+            width: 95%;
+            left: 20px;
+            top: 85px;
+            color: $text-color; 
+          }
+      }
+      
+  
+      #sandelys {
+        height: 400px;
+        width: 45%;
+        position: relative;
+        img {
+          width: 100%;
+          opacity: 0.8;
+          animation-name: img1;
+          animation-duration: 2s;
+          animation-iteration-count: 1;
+        }
+        @keyframes img1 {
+          0% {width: 250px;}
+        }
+        h2 {
+          position: absolute;
+          color: $h-color;
+          top: 20px;
+          left: 20%;
+          font-size: 35px;
+        }
+        p {
+          position: absolute;
+          text-align: center;
+          width: 95%;
+          left: 20px;
+          top: 80px;
+          color: $text-color;
+        }
+      }
+    }
+  
+    .section2 {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+
+      &::before {
+        display: inline-block;
+        content: '';
+        width: 2px;
+        height: 100px;
+        background-color: $before-color;
+        position: absolute;
+        top: 50%;
+        left: 170px;
+        transform: translateY(50%);
+        opacity: 0.5;
+      }
+    
+      #juridines {
+        height: 400px;
+        width: 45%;
+        position: relative;
+        img {
+          width: 100%;
+          opacity: 0.4;
+          animation-name: img1;
+          animation-duration: 2s;
+          animation-iteration-count: 1;
+        }
+        @keyframes img1 {
+          0% {width: 250px;}
+        }
+        h2 {
+          position: absolute;
+          color: $h-color;
+          top: 100px;
+          left: 20%;
+          font-size: 35px;
+        }
+        p {
+          position: absolute;
+          text-align: center;
+          width: 95%;
+          left: 20px;
+          top: 150px;
+          color: $text-color;
+        }
+      }
+    
+  
+      #tarpininkai {
+        height: 400px;
+        width: 45%;
+        position: relative;
+        img {
+          width: 100%;
+          opacity: 0.4;
+          animation-name: img1;
+          animation-duration: 2s;
+          animation-iteration-count: 1;
+        }
+        @keyframes img1 {
+          0% {width: 250px;}
+        }
+        h2 {
+          position: absolute;
+          color: $h-color;
+          top: 20px;
+          left: 20%;
+          font-size: 35px;
+        }
+        p {
+          position: absolute;
+          text-align: center;
+          width: 95%;
+          left: 20px;
+          top: 80px;
+          color: $text-color;
+        }
+      }
+    }
+    .section3 {
+      #draudimas {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 400px;
+        width: 100%;
+        position: relative;
+        img {
+          width: 50%;
+          opacity: 0.4;
+          animation-name: img1;
+          animation-duration: 2s;
+          animation-iteration-count: 1;
+        }
+        @keyframes img1 {
+          0% {width: 250px;}
+        }
+           h2 {
+            position: absolute;
+            color: $h-color;
+            top: 20px;
+            left: 41%;
+            font-size: 35px;
+            }
+          p {
+            position: absolute;
+            text-align: center;
+            width: 40%;
+            left: 35%;
+            top: 80px;
+            color: $text-color;
+          }
+        
+      }
+    }
+  }
+
+  
