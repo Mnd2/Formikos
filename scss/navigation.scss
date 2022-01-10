@@ -24,6 +24,13 @@
             cursor: pointer;
             color: $h-color;
           }
+          i {
+            display: flex;
+            align-items: center;
+            flex-wrap: wrap;
+            align-content: center;
+            justify-content: center;
+          }
         }
       }
     }
