@@ -19,6 +19,7 @@
           color: $text-color;
           text-decoration: none;
           border-radius: 10px;
+          margin: 5px;
           &:hover {
             box-shadow: 7px 0px 20px 0px #500101;
             cursor: pointer;
@@ -30,7 +31,7 @@
             flex-wrap: wrap;
             align-content: center;
             justify-content: center;
-            margin: 2px;
+            padding: 10px;
           }
         }
       }
