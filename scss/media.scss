@@ -23,7 +23,7 @@
         width: 100%;
         .left {
           width: 95%;
-          height: 400px;
+          height: 250px;
           h2 {
               text-align: center;
           }
@@ -38,6 +38,9 @@
           .icons {
             display: flex;
             flex-direction: row;
+            i {
+                margin: 20px;
+            }
           }
         }
       }

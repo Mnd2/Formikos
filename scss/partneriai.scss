@@ -17,6 +17,10 @@
             width: 25%;
             a{
                 width: 75%;
+                transition: 0.5s;
+                &:hover {
+                    width: 80%;
+                }
                 img {
                     width: 100%;
                 }

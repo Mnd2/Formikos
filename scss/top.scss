@@ -11,9 +11,9 @@
     height: 100px;
     background-color: $before-color;
     position: absolute;
-    top: 55%;
+    top: 70%;
     left: 100px;
-    transform: translateY(50%);
+    transform: rotate(320deg);
     opacity: 0.5;
   }
   .flex {
@@ -28,8 +28,9 @@
       align-items: center;
       width: 40%;
       height: 600px;
-      h2{
+      h1{
         color: $h-color;
+        font-size: 50px;
       }
       p {
         color: $text-color;
@@ -48,8 +49,16 @@
           
         i{
           color: $h-color;
-          margin: 10px;
+          margin: 10px 0;
           font-size: 30px;
+          transition: 0.5s;
+          border-radius: 50px;
+          // box-shadow: 5px 0px 15px 2px #55555673;
+          &:hover {
+            color: crimson;
+            font-size: 45px;
+            box-shadow: 6px -3px 20px 12px #dcdce68c;
+          }
         }
       }
     }
