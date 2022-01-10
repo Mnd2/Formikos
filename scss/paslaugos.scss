@@ -16,13 +16,13 @@
         display: inline-block;
         content: '';
         width: 2px;
-        height: 100px;
+        height: 80%;
         background-color: $before-color;
         position: absolute;
-        bottom: -30%;
+        bottom: -70%;
         left: 50%;
         transform: translateY(50%);
-        opacity: 0.5;
+        opacity: 0.3;
       }
   
         #pervezimai {
