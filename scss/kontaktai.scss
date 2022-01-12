@@ -16,6 +16,9 @@
         width: 40%;
         border-radius: 30px;
         box-shadow: 12px -2px 20px 9px white;
+        animation-name: sviesa;
+        animation-iteration-count: infinite;
+        animation-duration: 1s;
         h3 {
             color: $h-color;
             font-size: 30px; 
@@ -27,4 +30,9 @@
             color: $text-color;
         }
     }
+}
+
+@keyframes sviesa {
+    0% {box-shadow: 12px -1px 21px 10px whitesmoke;}
+    50% {box-shadow: 12px -1px 21px 15px white;}
 }
