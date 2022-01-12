@@ -35,11 +35,15 @@
           display: flex;
           align-items: flex-start;
           justify-content: center;
+          width: 100%;
           .icons {
             display: flex;
             flex-direction: row;
-            i {
-                margin: 20px;
+            width: 100%;
+            align-items: center;
+            justify-content: center;
+            a{
+              margin: 0 5%;
             }
           }
         }
