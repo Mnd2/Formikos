@@ -9,11 +9,16 @@
       font-size: 50px;
       margin: 0 0 30px 0;
     }
-    .box {
+    .flex{
+        display: flex;
+        justify-content: space-between;
+        width: 85%;
+    .boxLeft {
         display: flex;
         flex-direction: column;
         align-items: center;
-        width: 40%;
+        width: 45%;
+        padding: 20px;
         border-radius: 30px;
         box-shadow: 12px -2px 20px 9px white;
         animation-name: sviesa;
@@ -24,12 +29,43 @@
             font-size: 30px; 
             
         }
+        p {
+            font-size: 20px;
+            color: $text-color;
         i {
             margin: 20px;
             font-size: 20px;
             color: $text-color;
         }
     }
+    }
+    .boxRight {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 45%;
+        padding: 20px;
+        border-radius: 30px;
+        box-shadow: 12px -2px 20px 9px white;
+        animation-name: sviesa;
+        animation-iteration-count: infinite;
+        animation-duration: 1s;
+        h3 {
+            color: $h-color;
+            font-size: 30px; 
+            
+        }
+        p {
+            font-size: 20px;
+            color: $text-color;
+        i {
+            margin: 20px;
+            font-size: 20px;
+            color: $text-color;
+        }
+    }
+    }
+}
 }
 
 @keyframes sviesa {

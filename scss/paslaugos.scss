@@ -42,6 +42,10 @@
             position: absolute;
             width: 100%;
             opacity: 0.4;
+            &[data-scroll="in"] {
+              opacity: 1;
+              transition-duration: 1s;
+           }
           }
             h2 {
               z-index: 999;
