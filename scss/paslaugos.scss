@@ -2,12 +2,14 @@
 #paslaugos {
     width: 100%;
     padding: 20px 0;
+    
     .pavadinimas {
       text-align: center;
       color: $h-color;
       font-size: 50px;
       margin-bottom: 80px;
     }
+
     .section1 {
       display: flex;
       justify-content: space-around;
@@ -175,6 +177,7 @@
         }
       }
     }
+
     .section3 {
       #draudimas {
         display: flex;
