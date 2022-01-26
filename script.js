@@ -10,4 +10,15 @@ let animation = anime({
     scale: anime.stagger([0.7, 1], {from: 'center'}), 
     delay: anime.stagger(100, {start: 1000}), 
     translateX: [-10, 30]
-  });
+});
+  
+
+
+
+function openNav() {
+  document.getElementById("mySidepanel").style.width = "250px";
+}
+
+function closeNav() {
+  document.getElementById("mySidepanel").style.width = "0";
+}
