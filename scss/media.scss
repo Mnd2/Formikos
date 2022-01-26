@@ -1,3 +1,18 @@
+// navigation
+@media (max-width: 825px) {
+    .navigation {
+      
+      .header {
+        flex-direction: column;
+        nav {
+          width: 100%;
+          justify-content: space-around;
+        }
+        
+      }
+    }
+  }
+
 // Top
 @media (max-width: 825px) {
     .top {
@@ -216,15 +231,3 @@
 }
 
 // navigation
-@media (max-width: 825px) {
-    .navigation {
-      
-      .header {
-        flex-direction: column;
-        nav {
-          width: 100%;
-          justify-content: space-around;
-        }
-      }
-    }
-  }
